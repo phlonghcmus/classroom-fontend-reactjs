@@ -14,7 +14,6 @@ function App() {
     .then(
       (result) => {
         setClasses(result);
-        console.log("test")
       })
   }
   useEffect(() => {
